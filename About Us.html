@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <title> G6 8-Chronicles About Us </title>
+   <link rel="stylesheet" href="bout.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+		    <a href="index.html"><img src="photos/logo1.png"><a/>
+			<div class="nav-links" id="navlinks">
+			   <i class="fa fa-times" onclick="hideMenu()"></i>
+			    <ul>
+			       <li><a href="index.html">HOME</a></li>
+				   <li><a href="1-ElandCom.html">ELEMENTS & COMPOUNDS</a></li>
+				   <li><a href="2-TerandCle.html">WATERCYCLE</a></li>
+				   <li><a href="Quiz.html">QUIZ</a></li>
+				   <li><a href="About Us.html">ABOUT US</a></li>
+				   <li><a href="Reference.html">REFERENCE</a></li>
+			    </ul>
+		    </div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	    <h1>About Us</h1>
+	</section>
+	
+    <!----- Abou Us Ey ------>
+	<section class="about-us">
+	
+	<div class="row">
+	    <div class="about-col">
+		    <h1>Meet The Developers</h1>
+			<p>Hello! We are the developers and designers of this website. Our goal is to create an educational website that focuses on the essential elements, compounds, and water cycle. The purpose of our website is to provide resources, tools and information that can be helpful in one's learning process. Our mission is to offer a platform where users can access supplemental materials, interactive exercises, and study guides in which can serve as a valuable resource for enhancing knowledge.</p>
+		
+		</div>
+		<div class="about-col">
+		    <img src="C:\Users\Mary Ann Galang\Documents\g8 files\SAMPLE WEBSITE\photos/us4.png">
+		</div>
+	</div>
+	
+	</section>
+	
+	<!----- Leave a comment ----->
+	<section class="verkwan">
+	
+	<div class="row">
+
+		
+	    <div class="comment-box">
+	
+	    <h3>Leave a Comment!</h3>
+		
+		<form class="comment-form">
+		<input type="text" placeholder="Enter Name">
+		<input type="email" placeholder="Enter Email">
+		<textarea rows="5" placeholder="Your Comment">
+		</textarea>
+		<button type="submit" class="hero-btn red-btn">POST COMMENT </button>
+		</form>
+	</div>
+	</div>
+	
+	</section>
+	
+<!---- Contact Us ----->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3851.4596080946203!2d120.58743607421076!3d15.133083163820181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f24ec2f5a1f9%3A0x5e0af8a6aaab2282!2sHoly%20Angel%20University!5e0!3m2!1sen!2sph!4v1724671354573!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+	    <div class="contact-col">
+		    <div>
+			    <i class=""></i>
+				<span>
+				    <h5> #1 Holy Angel St </h5>
+					<p> Angeles City, 2009 Pampanga</p>				
+			</div>
+			<div>
+			    <i class=""></i>
+				<span>
+				    <h5> +0981-681-5450 </h5>
+					<p> Can Call 7AM to 10PM </p>				
+			</div>
+			<div>
+			    <i class=""></i>
+				<span>
+				    <h5> @8chronigroup6.com </h5>
+					<p> Email us for any concerns</p>				
+			</div>
+		</div>
+		<div class="contact-col">
+		    
+			<form action="8chronigroup6@gmail.com" method="post"><a href="mailto:8chronigroup6@gmail.com"></a>
+			    <input type="text" name="name" placeholder="Enter your name" required>
+				<input type="email" name="email" placeholder="Enter your email address" required>
+		        <input type="text" name="subject" placeholder="Enter your subject" required>
+				<textarea rows="8" name="message" placeholder="Message/Concern" required></textarea>
+				
+				<div class="minwon">
+				<button type="submit" class="hero-btn red-btn">
+				<a href="mailto:8chronigroup6@gmail.com"> Send Message </a> 
+				</button>
+				</div>
+				
+			</form>
+		</div>
+	</div>
+
+</section>
+	
+
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+
+   var navlinks = document.getElemntById("navlinks");
+   function showMenu(){
+       navLinks.style.right = "0";     
+   }
+   function hideMenu(){
+       navLinks.style.right = "-200px";     
+   }
+
+</script>
+
+</body>
+</html>  
